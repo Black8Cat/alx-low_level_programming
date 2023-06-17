@@ -5,7 +5,7 @@
 /**
  * main - the number stored in the variable n is positive or negative.
  *
- * Return 0 (Success)
+ * Return: 0 (Success)
  */
 int main(void)
 {
