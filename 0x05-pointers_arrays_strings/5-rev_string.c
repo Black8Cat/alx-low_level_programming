@@ -21,6 +21,6 @@ void rev_string(char *s)
 	}
 	tmp[i] = '\0';
 	for (i = 0; tmp[i]; i++)
-		s[i] = tmp [i];
+		s[i] = tmp[i];
 	s[i - 1] = '\0';
-}	
+}
