@@ -11,11 +11,12 @@
  */
 int _prime(int n, int i)
 {
-	if (n % i == 0)
-		return (0);
 	if (i == n)
 		return (1);
-	return (_prime(n, i + 1));
+	else if (n % i == 0)
+                return (0);
+	else
+		return (_prime(n, i + 1));
 }
 /**
  * is_prime_number - a function that returns 1 if the input integer is
