@@ -6,7 +6,7 @@
  * @argc: integer
  * @argv: array
  *
- * Return: return 1 if one of the number contains symbols
+ * Return: return 1 if one of the number contains symbole
  * that are not digits
  */
 int main(int argc, char *argv[])
