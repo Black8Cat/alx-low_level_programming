@@ -1,12 +1,10 @@
 #include <stdio.h>
 
 /**
- * main - Entry point
+ * main - a program that prints the name of the file
+ * it was compiled from
  *
- * Description: a program that prints the name of the file
- *		it was compiled from
- *
- * Retrun: 0
+ * Return: always 0
  */
 int main(void)
 {
