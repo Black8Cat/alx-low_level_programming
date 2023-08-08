@@ -36,9 +36,9 @@ int main(int ac, char **av)
 
 	from_fd = close(from_fd);
 	to_fd = close(to_fd);
-	if (from_fd)
+	if (from_fd < 0)
 		dprintf(STDERR_FILENO, ERR_NOCLOSE, from_fd), exit(100);
-	if (to_fd)
+	if (to_fd < 0)
 		dprintf(STDERR_FILENO, ERR_NOCLOSE, from_fd), exit(100);
 
 	return (EXIT_SUCCESS);
